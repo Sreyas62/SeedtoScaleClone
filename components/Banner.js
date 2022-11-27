@@ -1,9 +1,10 @@
+import Image from "next/image"
 export default function Banner(){
     return(
             
                 <div>
                 <div className="hidden lg:inline">
-                    <img src="/banner.svg" alt="banner" className="float-right"/>
+                    <Image src="/banner.svg" alt="banner" className="float-right"/>
                     <div className="pt-20 pb-20 px-10 xl:px-36 bg-[#f6f3fa]">
 
                     <h1 className="text-5xl font-['serif'] font-bold">Partner Perks</h1><br/>

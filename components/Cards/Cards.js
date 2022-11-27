@@ -6,7 +6,7 @@ export default function Cards(){
             <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 gap-10">
             {cardList.map(card =>(
                 
-                <div className="shadow-[0_15px_35px_-5px_rgba(0,0,0,0.2)] p-5 rounded-2xl cursor-pointer">
+                <div className="shadow-[0_15px_35px_-5px_rgba(0,0,0,0.2)] p-5 rounded-2xl cursor-pointer" key={card.id}>
                 <a className="flex flex-col justify-between h-full" href={card.link}>
                     <div>
                         <div className="h-20 w-20 border-black-700 rounded-2xl border-solid border pt-6 pb-15 px-2">
