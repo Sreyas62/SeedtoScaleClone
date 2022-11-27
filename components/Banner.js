@@ -4,7 +4,7 @@ export default function Banner(){
             
                 <div>
                 <div className="hidden lg:inline">
-                    <Image src="/banner.svg" alt="banner" className="float-right"/>
+                    <img src="/banner.svg" alt="banner" className="float-right"/>
                     <div className="pt-20 pb-20 px-10 xl:px-36 bg-[#f6f3fa]">
 
                     <h1 className="text-5xl font-['serif'] font-bold">Partner Perks</h1><br/>
